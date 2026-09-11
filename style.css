@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #080a0d;
+    background: #06152E;
     color: white;
     line-height: 1.6;
     overflow-x: hidden;
@@ -41,10 +41,10 @@ button {
     height: 75px;
     z-index: 1000;
 
-    background: rgba(8, 10, 13, 0.85);
+    background: rgba(4, 14, 32, 0.88);
     backdrop-filter: blur(15px);
 
-    border-bottom: 1px solid #20252b;
+    border-bottom: 1px solid #18345A;
 }
 
 .nav {
@@ -61,7 +61,7 @@ button {
 }
 
 .logo span {
-    color: #35e08a;
+    color: #EDBB00;
 }
 
 .navbar {
@@ -72,7 +72,7 @@ button {
 .navbar a {
     position: relative;
 
-    color: #9ca3aa;
+    color: #B9C5D6;
     font-size: 14px;
 
     transition: 0.3s;
@@ -80,7 +80,7 @@ button {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #35e08a;
+    color: #A50044;
 }
 
 .navbar a::after {
@@ -93,7 +93,7 @@ button {
     width: 0;
     height: 2px;
 
-    background: #35e08a;
+    background: #A50044;
 
     transition: 0.3s;
 }
@@ -127,7 +127,7 @@ button {
 }
 
 .section-title p {
-    color: #35e08a;
+    color: #A50044;
 
     font-size: 12px;
     font-weight: bold;
@@ -167,7 +167,7 @@ button {
 }
 
 .small-title {
-    color: #35e08a;
+    color: #A50044;
 
     font-size: 13px;
     font-weight: bold;
@@ -189,11 +189,11 @@ button {
 
 .hero h1 span {
     display: block;
-    color: #35e08a;
+    color: #A50044;
 }
 
 .nickname {
-    color: #9ca3aa;
+    color: #B9C5D6;
 
     font-size: 23px;
 
@@ -213,7 +213,7 @@ button {
 .hero-description {
     max-width: 570px;
 
-    color: #8d949d;
+    color: #AAB8CC;
 
     font-size: 16px;
 
@@ -242,23 +242,23 @@ button {
 }
 
 .primary-btn {
-    background: #35e08a;
-    color: #07100b;
+    background: #A50044;
+    color: #ffffff;
 }
 
 .primary-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(53, 224, 138, 0.2);
+    box-shadow: 0 10px 30px rgba(165, 0, 68, 0.28);
 }
 
 .secondary-btn {
-    border: 1px solid #30363d;
+    border: 1px solid #31557D;
     color: white;
 }
 
 .secondary-btn:hover {
-    border-color: #35e08a;
-    color: #35e08a;
+    border-color: #A50044;
+    color: #A50044;
 }
 
 
@@ -279,11 +279,11 @@ button {
 
 .hero-stats strong {
     font-size: 25px;
-    color: #35e08a;
+    color: #A50044;
 }
 
 .hero-stats span {
-    color: #707780;
+    color: #8798AF;
     font-size: 12px;
 }
 
@@ -314,7 +314,7 @@ button {
 
     border-radius: 20px;
 
-    border: 1px solid #30363d;
+    border: 1px solid #31557D;
 
     z-index: 2;
 
@@ -330,7 +330,7 @@ button {
     width: 430px;
     height: 560px;
 
-    border: 2px solid #35e08a;
+    border: 2px solid #EDBB00;
 
     border-radius: 20px;
 
@@ -349,9 +349,9 @@ button {
 
     padding: 13px 18px;
 
-    background: #11151a;
+    background: #0B2347;
 
-    border: 1px solid #30363d;
+    border: 1px solid #31557D;
 
     border-radius: 8px;
 
@@ -372,14 +372,14 @@ button {
 
     border-radius: 50%;
 
-    background: #35e08a;
+    background: #EDBB00;
 }
 
 
 /* ================= ABOUT ================= */
 
 .about {
-    background: #0e1115;
+    background: #081D3A;
 }
 
 .about-content {
@@ -401,15 +401,15 @@ button {
     justify-content: center;
     align-items: center;
 
-    background: #11151a;
+    background: #0B2347;
 
-    border: 1px solid #252b32;
+    border: 1px solid #1D406B;
 
     border-radius: 15px;
 }
 
 .about-icon {
-    color: #35e08a;
+    color: #EDBB00;
 
     font-family: Consolas, monospace;
 
@@ -423,7 +423,7 @@ button {
 }
 
 .about-box p {
-    color: #777f89;
+    color: #93A3B9;
 
     font-size: 14px;
 }
@@ -435,17 +435,17 @@ button {
 }
 
 .about-text h3 span {
-    color: #35e08a;
+    color: #A50044;
 }
 
 .about-text p {
-    color: #9097a0;
+    color: #B0BDCF;
 
     margin-bottom: 15px;
 }
 
 .about-text strong {
-    color: #35e08a;
+    color: #EDBB00;
 }
 
 .about-info {
@@ -462,13 +462,13 @@ button {
 }
 
 .about-info strong {
-    color: #35e08a;
+    color: #EDBB00;
 
     font-size: 27px;
 }
 
 .about-info span {
-    color: #727982;
+    color: #91A1B6;
 
     font-size: 12px;
 }
@@ -489,9 +489,9 @@ button {
 
     padding: 30px 25px;
 
-    background: #11151a;
+    background: #0B2347;
 
-    border: 1px solid #242a31;
+    border: 1px solid #1B3B63;
 
     border-radius: 10px;
 
@@ -501,11 +501,11 @@ button {
 .skill-card:hover {
     transform: translateY(-7px);
 
-    border-color: #35e08a;
+    border-color: #A50044;
 }
 
 .skill-number {
-    color: #35e08a;
+    color: #EDBB00;
 
     font-size: 13px;
 
@@ -519,7 +519,7 @@ button {
 }
 
 .skill-card p {
-    color: #858c96;
+    color: #9EADC2;
 
     font-size: 14px;
 }
@@ -528,7 +528,7 @@ button {
 /* ================= PROJECTS ================= */
 
 .projects {
-    background: #0e1115;
+    background: #081D3A;
 }
 
 .projects-grid {
@@ -540,9 +540,9 @@ button {
 }
 
 .project-card {
-    background: #11151a;
+    background: #0B2347;
 
-    border: 1px solid #242a31;
+    border: 1px solid #1B3B63;
 
     border-radius: 10px;
 
@@ -554,7 +554,7 @@ button {
 .project-card:hover {
     transform: translateY(-7px);
 
-    border-color: #35e08a;
+    border-color: #A50044;
 }
 
 .project-image {
@@ -565,9 +565,9 @@ button {
     justify-content: center;
     align-items: center;
 
-    background: #181d23;
+    background: #102F59;
 
-    color: #35e08a;
+    color: #EDBB00;
 
     font-size: 13px;
     font-weight: bold;
@@ -580,7 +580,7 @@ button {
 }
 
 .project-info > span {
-    color: #35e08a;
+    color: #A50044;
 
     font-size: 12px;
 }
@@ -592,7 +592,7 @@ button {
 }
 
 .project-info p {
-    color: #858c96;
+    color: #9EADC2;
 
     font-size: 14px;
 
@@ -600,7 +600,7 @@ button {
 }
 
 .project-link {
-    color: #35e08a;
+    color: #EDBB00;
 
     font-size: 14px;
 
@@ -623,7 +623,7 @@ button {
 
     padding: 35px;
 
-    border: 1px solid #242a31;
+    border: 1px solid #1B3B63;
 
     border-radius: 10px;
 
@@ -631,13 +631,13 @@ button {
 }
 
 .service-card:hover {
-    border-color: #35e08a;
+    border-color: #A50044;
 
     transform: translateY(-5px);
 }
 
 .service-number {
-    color: #35e08a;
+    color: #EDBB00;
 
     margin-bottom: 45px;
 }
@@ -649,7 +649,7 @@ button {
 }
 
 .service-card p {
-    color: #858c96;
+    color: #9EADC2;
 
     font-size: 14px;
 }
@@ -658,9 +658,9 @@ button {
 /* ================= CONTACT ================= */
 
 .contact {
-    background: #35e08a;
+    background: #A50044;
 
-    color: #07100b;
+    color: #ffffff;
 }
 
 .contact-content {
@@ -677,7 +677,7 @@ button {
 }
 
 .contact .section-title p {
-    color: #07100b;
+    color: #EDBB00;
 }
 
 .contact .section-title h2 {
@@ -713,16 +713,16 @@ button {
 }
 
 .contact-links a:hover {
-    background: #07100b;
+    background: #06152E;
 
-    color: #35e08a;
+    color: #EDBB00;
 }
 
 
 /* ================= FOOTER ================= */
 
 .footer {
-    background: #06080a;
+    background: #040E20;
 
     padding: 25px 0;
 }
@@ -734,7 +734,7 @@ button {
 
     gap: 20px;
 
-    color: #6f7680;
+    color: #8091A8;
 
     font-size: 13px;
 }
@@ -858,7 +858,7 @@ button {
         width: 42px;
         height: 42px;
 
-        border: 1px solid #30363d;
+        border: 1px solid #31557D;
         border-radius: 8px;
 
         font-size: 25px;
@@ -880,9 +880,9 @@ button {
 
         padding: 10px;
 
-        background: rgba(14, 17, 21, 0.98);
+        background: rgba(8, 29, 58, 0.98);
 
-        border: 1px solid #252b32;
+        border: 1px solid #1D406B;
         border-radius: 12px;
 
         opacity: 0;
@@ -915,7 +915,7 @@ button {
 
     .navbar a:hover,
     .navbar a.active {
-        background: #181d23;
+        background: #102F59;
     }
 
     .navbar a::after {
